@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Text Editor</title>
+</head>
+<body>
+
+    <!--Container-->
+    <div class="container">
+
+        <!--Header having options-->
+        <section class="tools-container">
+            <!--File namd and Download options-->
+            <input type="text" placeholder="Filename" id="fileName" value="Untitled">
+            
+            <div class="dropdown">
+                <button type="btn" id="downloadBtn">Download</button>
+                <ul class="dropdown-content">
+                    <li>Pdf</li>
+                    <li>Html</li>
+                    <li>Txt</li>
+                </u>
+            </div>
+        </section>
+
+        <!--Content Section-->
+        <section id="content" contenteditable="true">
+            Start writing..
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

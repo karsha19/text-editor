@@ -8,6 +8,8 @@ You can see the live demo by clicking this url
 
 [Text Editor](ipritamjaiswal.github.io/text-editor)
 
+<img src="shot.png" style="width:250px;" />
+
 #### Features
 
 1. Create new file

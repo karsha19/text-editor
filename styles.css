@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    background-color: #f6f6f6;
+    height: 100vh;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tools-container {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownBtn {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px 5px;
+}
+
+.dropdownBtn:hover, .dropdownBtn:active {
+    background-color: #f3f3f3;
+}
+
+
+
+.group {
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding:10px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:5px;
+}
+
+.btn-primary {
+    background-color: #0d82e2;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #232428;
+    color: #fff;
+}
+
+.color-picker {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+select {
+    border-radius: 5px;
+    padding: 0 7px;
+}
+
+input[type="color"] {
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.text-area {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 30px 0;
+    }
+    main {
+        border-radius: 7px;
+        box-shadow: 0 0 5px #c2c1c1;
+    }
+}

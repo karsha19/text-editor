@@ -6,7 +6,7 @@ This is a text editor built with static html, css and javaScript.
 
 You can see the live demo by clicking this url
 
-[Text Editor](ipritamjaiswal.github.io/text-editor)
+[Text Editor](https://ipritamjaiswal.github.io/text-editor)
 
 <img src="shot.png" style="width:250px;" />
 

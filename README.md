@@ -20,3 +20,5 @@ You can see the live demo by clicking this url
 #### Technologies used
 
 `HTML`, `CSS`, `JavaScript`
+Thank You!
+
